@@ -1,4 +1,4 @@
-# demo_node
+# Demo of AngularJS on NodeJS
 This app is designed to exemplify an Angular.js structure built upon a basic node.js back end.
 
 ### Components Used:
