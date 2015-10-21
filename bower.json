@@ -1,0 +1,26 @@
+{
+  "name": "demo_node",
+  "description": "Basic node.js template as framework for demo",
+  "main": "server.js",
+  "authors": [
+    "Michael McClure"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "demo"
+  ],
+  "homepage": "https://github.com/SalamanderMike/demo_node",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-resource": "~1.4.7",
+    "angular-route": "~1.4.7"
+  }
+}

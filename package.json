@@ -1,0 +1,27 @@
+{
+  "name": "demo_node",
+  "version": "1.0.0",
+  "description": "Basic node.js template as framework for demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalamanderMike/demo_node.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Michael McClure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SalamanderMike/demo_node/issues"
+  },
+  "homepage": "https://github.com/SalamanderMike/demo_node#readme",
+  "dependencies": {
+    "bower": "^1.6.3",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  }
+}
