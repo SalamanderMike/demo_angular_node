@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Basic node JS demo">
-	<title>Node Demo</title>
+	<title ng-bind="title"></title>
 
 	<!-- BOOTSTRAP -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -18,14 +18,20 @@
 	<script src="bower_components/angular-resource/angular-resource.js"></script>
 
 	<!-- ANGULAR WIRING 源文件 -->
-<!-- 	<script src="js/main.js"></script>
-	<script src="js/router.js"></script>
-	<script src="js/controllers.js"></script>
-	<script src="js/components.js"></script> -->
-</head>
-<body>
-<h1>TEST</h1>
+	 <script src="js/main.js"></script>
+	 <script src="js/router.js"></script>
+	 <script src="js/controllers.js"></script>
 
+</head>
+<body ng-view>
+<h1>{{label}}: {{ example | uppercase }}</h1>
+
+<input type="text" ng-model="example">
+<button type="button" ng-model="example" ng-click="ctrl.input(example)">Add To List</button>
+
+<ul>
+	<li ng-repeat="item in list">{{item}}</li>
+</ul>
 
 
 </body>
